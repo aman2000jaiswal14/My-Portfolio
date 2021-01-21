@@ -1,0 +1,129 @@
+{
+  "name": "Aman Jaiswal",
+  "email": "aman2000jaiswal14@gmail.com",
+  "password": "Aman@123",
+  "about": "Hello I am Aman Jaiswal. I am currently a computer science and engineering student in B-Tech 3rd year in Madan Mohan Malaviya University of Technology, Gorakhpur. I am a core member in Google Developer Student Club in MMMUT. I am codechef 4* and Kaggle Expert. I am Smart India Hackathon 2020 Finalist. i am goal oriented person. I have hands-on experience in Python and machine learning and passionate about deep reinforcement learning. I have also good Problem Solving skills. I have also extensive knowledge in C++, Data Structure and Algorithm, Computer Vision, Natural Language Processing, Operating System and DataBase Management System. Some python libraries that i have work for are Numpy, Pandas, Sklearn, Matplotlib, Scipy, TensorFlow, PyTorch and Keras. I have done my skill related projects listed below. I am looking for a role where i can leverage my skills and experience for the betterment of the organisation and further improvement to my own learning. My career objective is to obtain a position in an company where I can use my technical as well as people skills, contribute towards individual and organizational growth and be in the learning and improvement process throughout.",
+  "resume": "https://drive.google.com/file/d/1tJxdT0M1NtlB6_Oq3mdJpvdR3EUUPwhJ/view?usp=sharing",
+  "image_file": "static\\images\\avataaars.svg",
+  "skills": [
+    {
+      "skill": "Python",
+      "star": "sssss"
+    },
+    {
+      "skill": "C++",
+      "star": "sssss"
+    },
+    {
+      "skill": "R Programming",
+      "star": "sss"
+    },
+    {
+      "skill": "SQL",
+      "star": "sss"
+    },
+    {
+      "skill": "Machine Learning",
+      "star": "ssss"
+    },
+    {
+      "skill": "Computer Vision",
+      "star": "sss"
+    },
+    {
+      "skill": "Natural Language Processing",
+      "star": "sss"
+    },
+    {
+      "skill": "Deep Learning",
+      "star": "sss"
+    },
+    {
+      "skill": "Data Structure and Algorithm",
+      "star": "ssss"
+    },
+    {
+      "skill": "Data Analysis",
+      "star": "ssss"
+    },
+    {
+      "skill": "Data Base Management System",
+      "star": "sss"
+    },
+    {
+      "skill": "Operating System",
+      "star": "sss"
+    },
+    {
+      "skill": "Problem Solving",
+      "star": "sss"
+    },
+    {
+      "skill": "Flask",
+      "star": "sss"
+    },
+    {
+      "skill": "Django",
+      "star": "ss"
+    },
+    {
+      "skill": "HTML",
+      "star": "sss"
+    },
+    {
+      "skill": "CSS",
+      "star": "ss"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Face Recognition System",
+      "tech_stack": "(Computer Vision, Deep Learning)",
+      "content": "This project is used to recognize the human faces and label their name over the image. First images will be captured by the cam and then sent to mtcnn model for landmark detection of faces, where we get only face images. These images are trained to the model. And thus on live camera the faces with name label were detected.",
+      "github_link": "https://github.com/aman2000jaiswal14/Face-Recognition-System",
+      "demo_link": ""
+    },
+    {
+      "title": "Simple Chatbot",
+      "tech_stack": "(NLP, Rasa Framework)",
+      "content": "This Project related to a simple conversational chatbot. Rasa Framework is used to build this chatbot and deployed over Telegram. This Chatbot is related to Portfolio assistant which will provide Email, Contact no, Github link, Linkedin link and tell about his client whether he is available for work, what are his skills.",
+      "github_link": "https://github.com/aman2000jaiswal14/ChatBot",
+      "demo_link": ""
+    },
+    {
+      "title": "Agriculture Crop Classification and damage detection",
+      "tech_stack": "(Image Classification, Deep learning)",
+      "content": "This project is based on image classification of 5 classes Wheat, Rice, Maize, Sugarcane, Jute. This project used transfer learning concept of deep learning to train on small dataset of 50 images of each class, further image augmention is used to increase images about 200 images of each class. Images had been trained on VGG16 pretrained model giving accuracy above 90%.",
+      "github_link": "https://github.com/aman2000jaiswal14/Ann-Aztecs",
+      "demo_link": ""
+    },
+    {
+      "title": "Machine Learning Web App with Streamlit and Python",
+      "tech_stack": "(Machine Learning, Classification)",
+      "content": "This is a mushroom classification webapp using machine learning algorithm. In this webapp user can choose his own algorithm and parameters used in those algorithm and train and test it. Also user get different metrics (Confusion matrix, Roc score, accuracy) to test their model.",
+      "github_link": "https://github.com/aman2000jaiswal14/Machine-Learning-Web-App-with-Streamlit-and-Python",
+      "demo_link": "https://mushroom-classifier-ml-project.herokuapp.com/"
+    },
+    {
+      "title": "Review Scrapper",
+      "tech_stack": "(Python, Beautiful Soup)",
+      "content": "This is a python project to scrap reviews of the product from the Filpkart website and show it on a web page. Flask framework is used to integrate with frontend.",
+      "github_link": "https://github.com/aman2000jaiswal14/Review_Scrapper",
+      "demo_link": "https://get-prod-reviews.herokuapp.com/"
+    },
+    {
+      "title": "Admission Prediction",
+      "tech_stack": "(Machine Learning,Linear Regression)",
+      "content": "In this project, the chance of getting admission in a collage based on GRE Score, TOEFL Score, University Rating, SOP, LOR, CGPA, research is predicted. Linear Regression model is used for the prediction of chance.",
+      "github_link": "https://github.com/aman2000jaiswal14/Admission_prediction",
+      "demo_link": "https://admission--prediction.herokuapp.com/"
+    },
+    {
+      "title": "PYTHON-ESESAP",
+      "tech_stack": "(Python, Tkinter)",
+      "content": "This is a small tkinter GUI based application. This app is used to separate the mixed up text, audio, video, image file on a specific location to a separate folder based on their extensions.",
+      "github_link": "https://github.com/aman2000jaiswal14/PYTHON-ESESAP",
+      "demo_link": ""
+    }
+  ]
+}
