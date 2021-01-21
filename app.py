@@ -40,7 +40,7 @@ def correct1():
             return render_template('admin.html')
     except:
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 @app.route('/add_resume',methods = ['GET',"POST"])
 @cross_origin()
@@ -53,7 +53,7 @@ def add_resume():
         return render_template('admin.html')
     except:
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 
 @app.route('/correct2',methods=['GET',"POST"])
@@ -67,7 +67,7 @@ def correct2():
             return render_template('admin.html')
     except:
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 @app.route('/correct3',methods=['GET',"POST"])
 @cross_origin()
@@ -81,7 +81,7 @@ def correct3():
             return render_template('admin.html')
     except:
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 
 @app.route('/correct4',methods=['GET',"POST"])
@@ -97,7 +97,7 @@ def correct4():
     except Exception as e:
         print(e)
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 
 
@@ -118,7 +118,7 @@ def correct5():
             return render_template('admin.html')
     except:
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 
 @app.route('/correct6',methods=['GET',"POST"])
@@ -132,7 +132,7 @@ def correct6():
             return render_template('admin.html')
     except:
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 
 @app.route('/signin',methods = ['GET','POST'])
@@ -207,7 +207,7 @@ def load_messages():
     except Exception as e:
         print(e)
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 
 @app.route("/del_messages", methods=["GET", "POST"])
@@ -218,7 +218,7 @@ def del_messages():
         message_box.reset_message()
     except:
         pass
-    return render_template('admin.html')
+    return render_template('login.html')
 
 
 ## HOME PORTFOLIO ------------------------------------------------------------------------------------------------------
