@@ -47,6 +47,9 @@
 <!--    table1----------------------------------------------------------------------------- -->
 
 <div class="container-md" style=" margin-top:45px;" >
+     <div class="card text-dark bg-light mb-3">
+
+  <div class="card-body">
 
     <table class="table">
   <tbody>
@@ -61,7 +64,11 @@
       </td>
       <td> <div style="margin-top:45px; margin-left:45px;">
 
+
+
+
     <p>{{about}}</p>
+          <h6><font color=#f42069>I AM LOOKING FOR JUNIOR DATA SCIENTIST ROLE or SOFTWARE DEVELOPER ROLE. </font></h6>
            <a href={{resume}} target="_blank" >
               <button type="button" class="btn btn-success" style ="font-size: 15px;">RESUME</button>
           </a>
@@ -71,18 +78,26 @@
       </a>
 
 
-      </div></td>
+      </div>
+
+
+
+      </td>
 
     </tr>
   </tbody>
 </table>
-
+  </div>
+</div>
 <!--    table1----------------------------------------------------------------------------- -->
 
 
 
 
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+<div class="card text-dark bg-light mb-3">
+  <div class="card-body">
+
 
     <!--    SKILLS--------------------------------------------------------------------------------------  -->
   {% if skills %}
@@ -105,9 +120,12 @@
 {% endfor %}
 
   </div>
-    <hr>
+<!--    <hr>-->
 
 {% endif %}
+
+        </div>
+</div>
 <!--    SKILLS--------------------------------------------------------------------------------------  -->
 
 
@@ -146,7 +164,8 @@
             If you want to a try for this project go for try now.
             First user have to signin to create a portfolio. After signin user directed to the login page. where user login
             with their credentials. After login user redirect to the Admin page where user can replace his name, about himself,
-            add skill, remove skill, add project and remove project.
+            add skill, remove skill, add project and remove project. User can also see the messages and feedback send by the visitors
+         who visited his portfolio and give feedback (or message) to the user. User can also delete those messages.
     </p>
       <a href="https://github.com/aman2000jaiswal14/Dynamic-Portfolio"  target="_blank">
        <button type="button" class="btn btn-primary">GITHUB REPO</button>
