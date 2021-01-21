@@ -190,6 +190,8 @@ def reset():
     try:
         client = Person()
         client.reset_all()
+        message = Messages()
+        message.reset_message()
         return render_template('signin.html')
     except:
         pass
