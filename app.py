@@ -180,7 +180,7 @@ def mail():
     except Exception as e:
         print(e)
         pass
-    return render_template("home.html", name=client.name, image=client.image_file, about=client.about,
+    return render_template("home.html", name=client.name, resume = client.resume,image=client.image_file, about=client.about,
                            skills=client.skills, projects=client.projects, user=True)
 
 
@@ -233,7 +233,7 @@ def home():
         if request.method == 'POST':
             return render_template("home.html",name = client.name,resume = client.resume,image = client.image_file,about =client.about,skills = client.skills,projects =client.projects,user = True)
         else:
-            return render_template("home.html",name = client.name,image = client.image_file,about =client.about,skills = client.skills,projects =client.projects,user = True)
+            return render_template("home.html",name = client.name,resume = client.resume,image = client.image_file,about =client.about,skills = client.skills,projects =client.projects,user = True)
 
     except Exception as e:
         print(e)
