@@ -2,7 +2,7 @@
   "name": "Aman Jaiswal",
   "email": "aman2000jaiswal14@gmail.com",
   "password": "Aman@123",
-  "about": "Hello I am Aman Jaiswal. I am currently a computer science and engineering student in B-Tech 3rd year in Madan Mohan Malaviya University of Technology, Gorakhpur. I am a core member in Google Developer Student Club in MMMUT. I am codechef 4* and Kaggle Expert. I am Smart India Hackathon 2020 Finalist. i am goal oriented person. I have hands-on experience in Python and machine learning and passionate about deep reinforcement learning. I have also good Problem Solving skills. I have also extensive knowledge in C++, Data Structure and Algorithm, Computer Vision, Natural Language Processing, Operating System and DataBase Management System. Some python libraries that i have work for are Numpy, Pandas, Sklearn, Matplotlib, Scipy, TensorFlow, PyTorch and Keras. I have done my skill related projects listed below. I am looking for a role where i can leverage my skills and experience for the betterment of the organisation and further improvement to my own learning. My career objective is to obtain a position in an company where I can use my technical as well as people skills, contribute towards individual and organizational growth and be in the learning and improvement process throughout.",
+  "about": "Hello I am Aman Jaiswal. Undergraduate Student in Computer Science and Engineering heading towards searching new opportunity in this field. Software Developer Intern experienced and skilled in Python, C++, SQL, JavaScript, Data Structure and Algorithm, Django, Machine Learning, Database Management System, Operating System and having Problem Solving skills, Specialist in Codeforces and 4* in Codechef. I am looking for a role where i can leverage my skills and experience for the betterment of the organisation and further improvement to my own learning. My career objective is to obtain a position in an company where I can use my technical as well as people skills, contribute towards individual and organizational growth and be in the learning and improvement process throughout.",
   "resume": "https://drive.google.com/file/d/1kuzkoJb7sSpX2rtDxafaPkv6x5AgjvhJ/view?usp=sharing",
   "image_file": "static\\images\\avataaars.svg",
   "skills": [
@@ -16,11 +16,52 @@
     },
     {
       "skill": "R Programming",
-      "star": "sss"
+      "star": "ssss"
     },
     {
       "skill": "SQL",
-      "star": "sss"
+      "star": "ssss"
+    },
+ 
+    {
+      "skill": "Data Structure and Algorithm",
+      "star": "sssss"
+    },
+    {
+      "skill": "Data Analysis",
+      "star": "ssss"
+    },
+    {
+      "skill": "Data Base Management System",
+      "star": "ssss"
+    },
+    {
+      "skill": "Problem Solving",
+      "star": "sssss"
+    },
+    {
+      "skill": "Operating System",
+      "star": "ssss"
+    },
+    {
+      "skill": "Computer Network",
+      "star": "ssss"
+    },
+    {
+      "skill": "Flask",
+      "star": "ssss"
+    },
+    {
+      "skill": "Django",
+      "star": "ssss"
+    },
+    {
+      "skill": "HTML",
+      "star": "ssss"
+    },
+    {
+      "skill": "CSS",
+      "star": "ssss"
     },
     {
       "skill": "Machine Learning",
@@ -28,7 +69,7 @@
     },
     {
       "skill": "Computer Vision",
-      "star": "sss"
+      "star": "ssss"
     },
     {
       "skill": "Natural Language Processing",
@@ -39,43 +80,25 @@
       "star": "sss"
     },
     {
-      "skill": "Data Structure and Algorithm",
-      "star": "ssss"
-    },
-    {
-      "skill": "Data Analysis",
-      "star": "ssss"
-    },
-    {
-      "skill": "Data Base Management System",
-      "star": "sss"
-    },
-    {
-      "skill": "Operating System",
-      "star": "sss"
-    },
-    {
-      "skill": "Problem Solving",
-      "star": "sss"
-    },
-    {
-      "skill": "Flask",
-      "star": "sss"
-    },
-    {
-      "skill": "Django",
-      "star": "ss"
-    },
-    {
-      "skill": "HTML",
-      "star": "sss"
-    },
-    {
-      "skill": "CSS",
-      "star": "ss"
+      "skill": "Web Scraping",
+      "star": "sssss"
     }
   ],
   "projects": [
+    {
+      "title": "Clothing API",
+      "tech_stack": "Django-Rest-Framework",
+      "content": " An API which gives clothing products and their information in a paginated fashion. Full text search and filters are available on different categories of product.",
+      "github_link": "https://github.com/aman2000jaiswal14/Clothing-Api",
+      "demo_link": ""
+    },
+    {
+      "title": "Advertisement Web",
+      "tech_stack": "Ruby on Rails",
+      "content": "This is a Advertisement Web Application where user can publish their Advertisement. User can create, edit, delete Advertisement, view Advertisement on Home Page, register and login to the Advertisement page, comment on Advertisement",
+      "github_link": "https://github.com/aman2000jaiswal14/AdvertisingWeb",
+      "demo_link": "https://advertiseapp.herokuapp.com/"
+    },
     {
       "title": "Face Recognition System",
       "tech_stack": "(Computer Vision, Deep Learning)",
